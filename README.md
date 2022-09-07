@@ -10,6 +10,5 @@ ANDI_K121a: 06.09.2022 - 25.01.2023/09.03.2023
 * IEJVP3: Java - Generics, Collections und Strings
 * IESOEG: Software Engineering verstehen
 * IEJVP4: Java - File I/O und Localization
-* IEJVP5: Java - Threads, JDBC und Concurrency
-* ...
-*
+* IEJVP5: Java - Threads, JDBC und Concurrency 
+* ... 
