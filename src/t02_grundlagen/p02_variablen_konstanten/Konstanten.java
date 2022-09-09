@@ -1,4 +1,4 @@
-package t01_overview.p05_variablen_konstanten;
+package t02_grundlagen.p02_variablen_konstanten;
 
 public class Konstanten {
 

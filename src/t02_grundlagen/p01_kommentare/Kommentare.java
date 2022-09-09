@@ -1,4 +1,4 @@
-package t01_overview.p04_kommentare;
+package t02_grundlagen.p01_kommentare;
 /**
  * 
  * @author Salah
