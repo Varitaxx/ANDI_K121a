@@ -1,7 +1,7 @@
 package t02_grundlagen.p02_variablen_konstanten;
 
 
-public class T01_VariablenDeklaration {
+public class S01_VariablenDeklaration {
     // Nicht-Lokale Variablen
     // ======================
     /*  Syntax

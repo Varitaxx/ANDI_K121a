@@ -1,0 +1,6 @@
+Keinen Fehler verursachen können die auskommentierten Zeilen: 
+//   dummy
+
+//   dummy;
+
+/*   dummy  */

@@ -1,6 +1,6 @@
 package t02_grundlagen.p02_variablen_konstanten;
 
-public class Konstanten {
+public class S02_Konstanten {
 
   public static final int MWST = 19;
 

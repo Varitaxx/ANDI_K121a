@@ -1,0 +1,33 @@
+Syntaktische Fehler (der Compiler meckert):
+  * es muß class anstelle clss heißen
+  * der Bezeichner summe ist bei der Deklaration nur mit einem m geschrieben
+  * Das Semikolon nach System.out.println(summe) fehlt
+
+
+Inhaltlicher Fehler:
+Bei der eigentlichen Addition sollte als zweiter Summand auch wirklich 11 (und nicht 13) verwendet werden.
+
+Quelltext der fehlerhaften Version: Berechnung1.java
+Quelltext der korrigierten Version: Berechnung2.java
+
+
+// ========================================================
+public clss Berechnung1 {
+  public static void main (String[] args) {
+    int sume;
+    summe = 7 + 13;
+    System.out.print("7 + 11 ergibt");
+    System.out.println(summe)
+  }
+}
+// ========================================================
+public class Berechnung2 {
+
+  public static void main (String[] args) {
+    int summe;
+    summe = 7 + 11;
+    System.out.print("7 + 11 ergibt ");
+    System.out.println(summe);
+  }
+
+}

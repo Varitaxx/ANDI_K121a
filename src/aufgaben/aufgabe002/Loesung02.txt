@@ -1,0 +1,15 @@
+Wenn man das Semikolon in Zeile 3 entfernt,
+gibt der Compiler folgende Fehlermeldung aus:
+
+
+C:\>javac Loesung01.java
+Loesung01.java:11: ';' expected
+    System.out.println("Guten Tag!")
+                                    ^
+1 error
+
+
+Mit zwei Semikolons am Ende von Zeile 3 läßt sich das Programm
+ohne Probleme compilieren und ausführen,
+die Programmausgabe entspricht der von Aufgabe 01:
+das zweite Semikolon stellt eine leere Anweisung dar.
