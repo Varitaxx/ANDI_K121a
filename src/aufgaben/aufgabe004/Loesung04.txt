@@ -1,22 +1,22 @@
-Karl der Grosse
+Karl der Grosse  (FEHLER)
 Leerzeichen innerhalb eines Bezeichners sind nicht erlaubt 
 
 Karl_der_Grosse
 Der Unterstrich (Underscore) in Bezeichnernamen ist zulässig 
 
-Karl,der_Grosse
+Karl,der_Grosse  (FEHLER)
 Das Komma ist nicht erlaubt, bei einer Deklaration würde der Compiler dies als zwei (durch ein Komma getrennte) Bezeichner auffassen (z.B. int Karl,der_Grosse), nämlich Karl und der_Grosse 
 
-0 Ahnung?
+0 Ahnung?        (FEHLER)
 Bezeichner dürfen weder mit Ziffern beginnen noch dürfen sie ein ? enthalten 
 
-0_Ahnung
+0_Ahnung         (FEHLER)
 Bezeichner dürfen nicht mit Ziffern beginnen 
 
-null_Ahnung!
+null_Ahnung!     (FEHLER)
 Auch ein Ausrufezeichen im Bezeichner-Namen ist nicht gestattet. 
 
-1234abc
+1234abc          (FEHLER)
 Bezeichner dürfen nicht mit Ziffern beginnen 
 
 _1234abc

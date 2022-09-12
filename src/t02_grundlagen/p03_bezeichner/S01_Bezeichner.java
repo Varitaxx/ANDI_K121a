@@ -2,7 +2,7 @@ package t02_grundlagen.p03_bezeichner;
 
 import java.io.FileNotFoundException;
 
-public class S01_Bezeichner { // Camel Case: DistanceMeasurment
+public class S01_Bezeichner { // Upper CamelCase: DistanceMeasurment
   
   private int groesse;
   

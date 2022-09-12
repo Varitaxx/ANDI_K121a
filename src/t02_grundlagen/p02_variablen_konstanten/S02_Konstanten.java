@@ -4,7 +4,7 @@ public class S02_Konstanten {
 
   public static final int MWST = 19;
 
-  public static void main(String[] args) {
+  public static void main( String[] args) {
     System.out.println("brutto(1000): " + brutto(1000));
     System.out.println("calculateArea(50): " + calculateArea(50));
   }
