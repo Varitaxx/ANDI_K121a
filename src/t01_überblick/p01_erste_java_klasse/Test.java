@@ -1,4 +1,4 @@
-package t01_overview.p01_erste_java_klasse;
+package t01_überblick.p01_erste_java_klasse;
 
 public class Test {
   

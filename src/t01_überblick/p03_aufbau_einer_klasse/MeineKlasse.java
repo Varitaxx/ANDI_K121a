@@ -1,4 +1,4 @@
-package t01_overview.p03_aufbau_einer_klasse;
+package t01_überblick.p03_aufbau_einer_klasse;
 
 /*
  * Ein Element einer Klasse ist entweder

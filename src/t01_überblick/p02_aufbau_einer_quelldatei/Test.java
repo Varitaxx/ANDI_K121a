@@ -1,5 +1,5 @@
 // 0..1 package-Deklaration
-package t01_overview.p02_aufbau_einer_quelldatei;
+package t01_überblick.p02_aufbau_einer_quelldatei;
 
 // 0..n import-Deklarationen
 //import java.lang.*; // implizit

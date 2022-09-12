@@ -1,14 +1,13 @@
-package t01_overview.p05_import;
+package t01_überblick.p05_import;
 
 import java.lang.*;  // IMPLIZIT
 import java.util.Scanner; // Importiert die Klasse Scanner aus dem Paket java.util
-import java.util.*; // Importiert alle Datentypen aus dem Paket java.util
 // java.util.regex.*; werden damit NICHT importiert
 import static java.lang.Math.pow;
 // => importiert ein statisches Element (Methode)   der Klasse Math
 import static java.lang.Math.PI;
 // => importiert ein statisches Element (Konstante) der Klasse Math
-import static java.lang.Math.*;     // importiert alle statischen Elemente 				      // (Methoden + Variablen + ...) der Klasse Math
+
 
 public class ImportAnweisung {
   public static void main(String[] args) {
