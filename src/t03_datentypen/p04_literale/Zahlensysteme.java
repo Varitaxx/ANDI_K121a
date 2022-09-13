@@ -1,4 +1,4 @@
-package t04_literale;
+package t03_datentypen.p04_literale;
 
 public class Zahlensysteme {
   public static void main(String[] args) {

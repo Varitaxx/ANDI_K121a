@@ -1,4 +1,4 @@
-package t05_methoden;
+package t03_datentypen.p05_methoden;
 
 public class S04_Methodenaufrufe_Call_By_Value {
   public static void main(String[] args) {

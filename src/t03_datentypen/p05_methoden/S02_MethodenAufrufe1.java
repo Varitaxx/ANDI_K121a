@@ -1,4 +1,4 @@
-package t05_methoden;
+package t03_datentypen.p05_methoden;
 
 public class S02_MethodenAufrufe1 {
 
