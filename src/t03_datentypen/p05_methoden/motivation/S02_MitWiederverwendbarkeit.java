@@ -1,6 +1,6 @@
-package t03_datentypen.p05_methoden.motivation.p02_nacher;
+package t03_datentypen.p05_methoden.motivation;
 
-public class S01_MitWiederverwendbarkeit {
+public class S02_MitWiederverwendbarkeit {
 
 
   public static void main(String[] args) {
@@ -13,17 +13,11 @@ public class S01_MitWiederverwendbarkeit {
   }
   
   public static void printTitle(String title) {
-    System.out.println("============================================================");
-    System.out.println("=                       " + title + "                      =");
-    System.out.println("============================================================");
-    
+    System.out.println("=============================================================");
+    System.out.println("=                       " + title + "                       =");
+    System.out.println("=============================================================");
     System.out.println(".");
     System.out.println(".");
     System.out.println(".");
   }
-
-
-
-
-
 }

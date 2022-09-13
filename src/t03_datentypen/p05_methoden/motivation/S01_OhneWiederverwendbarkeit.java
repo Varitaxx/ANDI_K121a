@@ -1,4 +1,4 @@
-package t03_datentypen.p05_methoden.motivation.p01_vorher;
+package t03_datentypen.p05_methoden.motivation;
 
 public class S01_OhneWiederverwendbarkeit {
 
