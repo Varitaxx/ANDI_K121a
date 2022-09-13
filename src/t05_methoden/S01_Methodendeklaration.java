@@ -1,8 +1,8 @@
 package t05_methoden;
 
 public class S01_Methodendeklaration {
-  // [<acess-modifier>] [<non-access modifier>] <abstract|native> <return-type> methodName([parameter list]) [throws clause];
-  // [<acess-modifier>] [<non-access modifier>]                   <return-type> methodName([parameter list]) [throws clause] { ... }
+  // [<acess-modifier>] [<non-access modifier>]   <return-type> methodName( parameter list ) [throws clause] { ... }
+  // [<acess-modifier>]    <abstract|native>      <return-type> methodName( parameter list ) [throws clause];
 
 
   public void instanzMethode() { // non-static
