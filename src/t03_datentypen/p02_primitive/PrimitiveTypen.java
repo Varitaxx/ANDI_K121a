@@ -1,22 +1,12 @@
 package t03_datentypen.p02_primitive;
 
 public class PrimitiveTypen {
+  
   public static void main( String[] args ) {
     System.out.println("============================================================");
     primtive();
     zahlenSysteme();
     System.out.println("======================= end of main() ======================");
-  }
-  
-  private static void zahlenSysteme() {
-    int zahl1 = 483;   // Dezimal:     Basis 10 (0..9)
-    System.out.println("zahl1: " + zahl1);
-    int zahl2 = 0743;  // Oktal:       Basis 8  (0..7)
-    System.out.println("zahl2: " + zahl2);
-    int zahl3 = 0x1E3; // Hexadezimal: Basis 16 (0..9, A-F)
-    System.out.println("zahl3: " + zahl3);
-    int zahl4 = 0b111100011; // Binär: Basis 2  (0..1)
-    System.out.println("zahl4: " + zahl4);
   }
   
   private static void primtive() {
@@ -39,5 +29,16 @@ public class PrimitiveTypen {
     // =============================================================================
     boolean anwesend = true; // false
     boolean gerade = ( b > 3 ); // true (b=127 > 3)
+  }
+  
+  private static void zahlenSysteme() {
+    int zahl1 = 483;   // Dezimal:     Basis 10 (0..9)
+    System.out.println("zahl1: " + zahl1);
+    int zahl2 = 0743;  // Oktal:       Basis 8  (0..7)
+    System.out.println("zahl2: " + zahl2);
+    int zahl3 = 0x1E3; // Hexadezimal: Basis 16 (0..9, A-F)
+    System.out.println("zahl3: " + zahl3);
+    int zahl4 = 0b111100011; // Binär: Basis 2  (0..1)
+    System.out.println("zahl4: " + zahl4);
   }
 }
