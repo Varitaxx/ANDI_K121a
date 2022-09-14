@@ -1,9 +1,9 @@
-package t03_datentypen.p05_methoden;
+package t03_datentypen.p05_methoden.p03_methoden_aufruf;
 
 
 import java.util.Random;
 
-public class S03_MethodenAufrufe2 {
+public class S02_MethodenAufrufe {
   
   
   public static void main( String[] args ) {

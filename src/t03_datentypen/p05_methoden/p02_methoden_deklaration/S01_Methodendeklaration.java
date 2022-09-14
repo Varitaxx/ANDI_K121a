@@ -1,4 +1,4 @@
-package t03_datentypen.p05_methoden;
+package t03_datentypen.p05_methoden.p02_methoden_deklaration;
 
 public class S01_Methodendeklaration {
   // [<acess-modifier>] [<non-access modifier>]   <return-type> methodName( parameter list ) [throws clause] { ... }

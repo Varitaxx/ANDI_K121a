@@ -1,6 +1,6 @@
-package t03_datentypen.p05_methoden;
+package t03_datentypen.p05_methoden.p03_methoden_aufruf;
 
-public class S02_MethodenAufrufe1 {
+public class S01_MethodenAufrufe {
 
   public static void main(String[] args) {
     startAusgabe();

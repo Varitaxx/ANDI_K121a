@@ -8,7 +8,7 @@ public class Kommentare {
   
   // Zeilenkommentar
   public void method( int /*Blockkommentar*/ zahl ) { // Zeilenkommentar
-    System.out.println("Test");
+    System.out.println("S01_CallByValueMitPrimitiven");
     /*
     Blockkommentar
     */
