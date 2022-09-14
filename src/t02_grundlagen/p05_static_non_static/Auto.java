@@ -25,6 +25,7 @@ public class Auto {
   // Klassenmethode (static)
   public static void printCounter() {
     System.out.println("Counter: " + counter);
+    //System.out.println(hersteller); // COMPILER-FEHLER
   }
 
   class Inner1{}

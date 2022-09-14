@@ -1,4 +1,4 @@
-package t03_datentypen.p02_primitive;
+package t03_datentypen.p02_primitive_typen;
 
 public class PrimitiveTypen {
   
