@@ -3,18 +3,15 @@ package t03_datentypen.p06_string.p03_methods;
 
 import t03_datentypen.p06_string.Person;
 
-import java.util.Arrays;
-import java.util.List;
-
 public class MethodTest {
   
   public static void main( String[] args ) {
     //stringInfos();
     //stringManipulation();
-    concatTest();
+    //concatTest();
     //    splitTest();
     //    replaceTest();
-    //    staticMethods();
+    staticMethods();
   }
   
   // Aufgabe: die letzten 12 Zahlen der Kreditkartennummer mit X ersetzen
@@ -61,7 +58,8 @@ public class MethodTest {
     String result = s1 + " " + s2;
     System.out.println("result: " + result); // Hallo Welt
     System.out.println("============================================================");
-    result = s1.concat(" ").concat(s2);
+    result = s1.concat(" ")
+               .concat(s2);
     System.out.println("result: " + result); // Hallo Welt
     System.out.println("============================================================");
     // result = result + "!!!";
@@ -89,20 +87,6 @@ public class MethodTest {
       System.out.println(" - " + obst.trim()); // trim() entfernt Weißzeichen
     }
     System.out.println("===========================================================");
-    /* Inhalt einer CSV-Datei
-      Peter;Schmidt;+492215484545;+49157845821
-      Hans;Meyer;+492216546200;+4917158552122
-      // TODO Aufgabe => CSV-Datei einlesen und auswerten
-     */
-    List<String> lines = Arrays.asList("Peter;Schmidt;+492215484545;+49157845821", "Hans;Meyer;+492216546200;+4917158552122");
-    for( String zeile : lines ) {
-      String[] elemente = zeile.split(";");
-      //                  Kunde(vorname           , nachname          , tel1              , tel2              )
-      //      Kunde kunde = new Kunde(elemente[0].trim(), elemente[1].trim(), elemente[2].trim(), elemente[3].trim() );
-      //      kundenListe.add(kunde);
-      System.out.format("%s %s - Tel1: %s, Tel2: %s%n", elemente[0].trim(), elemente[1].trim(), elemente[2].trim(), elemente[3].trim());
-    }
-    
   }
   
   private static void replaceTest() {
@@ -125,15 +109,20 @@ public class MethodTest {
   }
   
   private static void staticMethods() {
-    int zahl = 12;
-    String zahlAsString = String.valueOf(12);
-    zahlAsString = zahl + ""; // Alternative
+    int alter = 12;
+    String alterAsString = String.valueOf(alter); // "12"
+    alterAsString = alter + ""; // Alternative  // "12"
     System.out.println("===========================================================");
-    String result = String.format("Das Kind ist %d Jahre alt%n", zahl);
+    int klasse = 5;
+    //String result = "Das Kind ist " + alter + " Jahre alt und besucht die " + klasse + ". Klasse";
+    String result = String.format("Das Kind ist \"%d Jahre alt\" und besucht die %d. Klasse", alter, klasse );
+    //String result = String.format("Das Kind ist %d Jahre alt%n", alter);
     System.out.println("result: " + result);
     System.out.println("===========================================================");
     result = String.join(":", "Peter", "Hans", "Thomas");// Gegenteil von split()
     System.out.println("result: " + result); // Peter:Hans:Thomas
+  
+    System.out.println("\"");
   }
   
 }

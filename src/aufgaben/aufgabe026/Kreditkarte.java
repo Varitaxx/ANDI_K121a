@@ -16,7 +16,7 @@ public class Kreditkarte {
     String output = "";
     int counter = 0;
     // von rechts nach links
-    for( int i = nummer.length() -1  ; i >=0  ; i-- ) {
+    for( int i = nummer.length() -1  ; i >= 0  ; i-- ) {
       String currentChar = nummer.charAt(i) + ""; //
       // Wenn das aktuelle Zeichen eine Ziffer ist UND noch nicht 12 Ziffern ersetzt
       if ( currentChar.matches("[0-9]") && counter < 12 ) {
