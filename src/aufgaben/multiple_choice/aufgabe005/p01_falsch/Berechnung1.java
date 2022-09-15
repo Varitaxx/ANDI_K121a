@@ -1,4 +1,4 @@
-package aufgaben.aufgabe005.p01_falsch;
+package aufgaben.multiple_choice.aufgabe005.p01_falsch;
 
   //public clss Berechnung1 {
   //  public static void main (String[] args) {

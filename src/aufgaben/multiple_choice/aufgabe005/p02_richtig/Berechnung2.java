@@ -1,4 +1,4 @@
-package aufgaben.aufgabe005.p02_richtig;
+package aufgaben.multiple_choice.aufgabe005.p02_richtig;
 public class Berechnung2 {
 
   public static void main (String[] args) {

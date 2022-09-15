@@ -1,4 +1,4 @@
-package aufgaben.aufgabe001;
+package aufgaben.multiple_choice.aufgabe001;
 
 public class Loesung001 {
 
