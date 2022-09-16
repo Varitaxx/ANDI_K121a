@@ -54,8 +54,10 @@ public class S05_BoolischeOperatoren {
   // ##############################################################################################
   private static void shortcutOperators2() {
     int a = 5, b = 10;
-    // &&: Shortcut AND Operator: Wenn der 1. Operand false ist, wird der Zweite nicht ausgewertet
-    if ( istGerade(a) & istGerade(b) ) {
+    // bei &&: Wenn der 1. Operand false ist, wird der Zweite nicht ausgewertet
+    if ( istGerade(a) && istGerade(b) ) { // &&: "Shortcut AND Operator"
+    // if (istGerade(a) & istGerade(b)) { // &: "AND Operator": Beide Operanden werden ausgewertet
+  
       System.out.println("Beide Zahlen sind gerade!");
     }
   }
