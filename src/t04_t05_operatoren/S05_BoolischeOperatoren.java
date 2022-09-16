@@ -6,8 +6,8 @@ public class S05_BoolischeOperatoren {
   public static void main(String[] args) {
 //    basics();
 //    shortcutOperators1();
-    shortcutOperators2();
-//    shortcutOperators3();
+//    shortcutOperators2();
+    shortcutOperators3();
     System.out.println("=== END ===");
   }
 
@@ -51,7 +51,8 @@ public class S05_BoolischeOperatoren {
       System.out.println("Beide Zahlen sind gerade!");
     }
   }
-  // ##############################################################################################
+  
+  // ===============================================================================
   private static void shortcutOperators2() {
     int a = 5, b = 10;
     // bei &&: Wenn der 1. Operand false ist, wird der Zweite nicht ausgewertet
@@ -61,32 +62,23 @@ public class S05_BoolischeOperatoren {
       System.out.println("Beide Zahlen sind gerade!");
     }
   }
-  // ##########################################
+  // =====================================
   private static boolean istGerade(int zahl) {
     System.out.println("istGerade(" + zahl + ")");
     //boolean result = ( zahl % 2 == 0 );
     //return result;
     return zahl % 2 == 0;
   }
-  // ##############################################################################################
+  // ===============================================================================
 
   private static void shortcutOperators3() {
     String name = null;
-//    String name = "Schmidt";
+    //String name = "Schmidt";
     if (name != null && name.length() < 8) { // & Operator würde bei [name = null] zu einem Fehler führen
-      System.out.println("Der Name ist nicht null und beinhaltet weniger als 8 Buchstaben!");
+      System.out.println("Der Name ist gültig.");
+    } else {
+      System.out.println("Der Name ist Ungültig!");
     }
-
-    int zahl = 5;
-    if (zahl < 10 || isGreater20(zahl)) { // |
-      System.out.println("Außerhalb von [10,20]");
-    }
-
   }
-
-  private static boolean isGreater20(int zahl) {
-    System.out.println("isGreater20() ...");
-    return zahl > 20;
-  }
-  // ##############################################################################################
+  // ===============================================================================
 }
