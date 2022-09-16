@@ -1,15 +1,15 @@
 public class Test {
   
   public static void main( String[] args ) {
-    String str;
     System.out.println("============================================================");
-    str = "Die erste Zeile. \n Die zweite Zeile.";
-    System.out.println("str: " + str);
-    str = "Dieser String ist so gross, dass der Programmierer ihn der " +
-              "besseren Übersicht wegen in zwei Zeilen geschrieben hat.";
-  
-  
-    System.out.println("str: " + str);
+    String str = "123";
+    // Alter zwischen 20 und 30
+    int alter = 40; // Benutzereingabe
+    
+    boolean result = alter >= 20 && alter <= 30;
+    
+    System.out.println("result: " + result);
+    
     System.out.println("======================= end of main() ======================");
   }
   
