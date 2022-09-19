@@ -1,5 +1,6 @@
 package t06_kontrollstrukturen.p01_conditional;
 
+import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class T01_IfAnweisung {
@@ -44,5 +45,24 @@ public class T01_IfAnweisung {
       System.out.println("Guten Abend!");
     }
   }
-
+  
+  private static void schlaltjahrTest() {
+    if (istSchaltjahr()) {
+      System.out.println("Dieses Jahr ist ein Schaltjahr");
+    } else {
+      System.out.println("Dieses Jahr ist kein Schaltjahr");
+    }
+    
+    System.out.println("Dieses Jahr ist " + (istSchaltjahr() ? "ein" : "kein")
+                           + " Schaltjahr");
+  }
+  
+  public static boolean istSchaltjahr() {
+    //LocalDate heute = LocalDate.now();
+    //return heute.isLeapYear();
+    return LocalDate.now()
+                    .isLeapYear();
+  }
+  
+  
 }

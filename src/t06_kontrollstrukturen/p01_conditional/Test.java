@@ -6,35 +6,38 @@ public class Test {
   
   public static void main( String[] args ) {
     System.out.println("============================================================");
-    int zahl = 22;
-    if (zahl % 2 == 0) {
-      System.out.println("Gerade Zahl");
-    } else {
-      System.out.println("Ungerade Zahl");
+    int tag = 99;
+    
+    switch( tag ) {
+      case 1:
+        System.out.println("Montag");
+        break;
+      case 2:
+        System.out.println("Dienstag");
+        break;
+      case 3:
+        System.out.println("Mittwoch");
+        break;
+      case 4:
+        System.out.println("Donnerstag");
+        break;
+      case 5:
+        System.out.println("Freitag");
+        break;
+      case 6:
+        System.out.println("Samstag");
+        break;
+      case 0:
+      case 7:
+        System.out.println("Sonntag");
+        break;
+      default:
+        System.out.println("Ungültiger Tag");
     }
-  
-  
-    schlaltjahrTest();
+
+
     System.out.println("======================= end of main() ======================");
   }
   
-  private static void schlaltjahrTest() {
-    if (istSchaltjahr()) {
-      System.out.println("Dieses Jahr ist ein Schaltjahr");
-    } else {
-      System.out.println("Dieses Jahr ist kein Schaltjahr");
-    }
-    
-    System.out.println("Dieses Jahr ist " +
-                           (istSchaltjahr() ? "ein" : "kein")
-                           + " Schaltjahr");
-  }
-  
-  public static boolean istSchaltjahr() {
-    //LocalDate heute = LocalDate.now();
-    //return heute.isLeapYear();
-    return LocalDate.now()
-                    .isLeapYear();
-  }
   
 }

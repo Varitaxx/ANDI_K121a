@@ -52,7 +52,7 @@ public class T02_Switch {
 
   private static void switchWithString() {
     String eingabe = JOptionPane.showInputDialog("Ihre Eingabe");
-    switch (eingabe) {
+    switch ( eingabe ) {
       case "1":
         JOptionPane.showMessageDialog(null, "action 1 wird gestartet ...");
         break;
@@ -68,11 +68,12 @@ public class T02_Switch {
   }
 
 
-  enum Size {S, M, L, XL, XXL;}
+  enum Size { S, M, L, XL, XXL }
 
   private static void switchWithEnum() {
     Size size = Size.S;
-    switch (size) {
+    
+    switch ( size ) {
       case S:
         System.out.println("Small");
         break;
