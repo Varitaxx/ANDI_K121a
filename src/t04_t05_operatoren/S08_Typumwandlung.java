@@ -57,4 +57,12 @@ public class S08_Typumwandlung {
     byte b = (byte) a;
     System.out.println("(byte) a: " + b);
   }
+  
+  public static void ganzZahlen() {
+    byte b1 = 10;
+    byte b2 = 20;
+    //byte c = b1 + b2;  // COMPILER-FEHLER
+    byte c = (byte) (b1 + b2);  // OK
+    // Alle Operationen mit Operanden vom Typ int und darunter sind vom Typ int !!!
+  }
 }
