@@ -1,13 +1,16 @@
 package t06_kontrollstrukturen.p01_conditional;
 
-public class T01_IfAnweisung {
+import java.time.LocalTime;
 
+public class T01_IfAnweisung {
+  
   public static void main(String[] args) {
-    System.out.println("################################################");
-//    ifTest();
+    
+    System.out.println("============================================================");
+    ifTest();
 //    ifElseTest();
-    ifElseIfElseTest();
-    System.out.println("################################################");
+//    ifElseIfElseTest();
+    System.out.println("======================= end of main() ======================");
   }
 
   public static void ifTest() {
@@ -15,7 +18,6 @@ public class T01_IfAnweisung {
     if ( alter >= 18 ) {
       System.out.println("Erwachsen");
     }
-    System.out.println("=== END ===");
   }
 
   public static void ifElseTest() {
@@ -31,6 +33,7 @@ public class T01_IfAnweisung {
 
 
   public static void ifElseIfElseTest() {
+    // int uhrzeit = LocalTime.now().getHour();
     int uhrzeit = 20;
 
     if (uhrzeit < 11) {
