@@ -10,6 +10,8 @@ public class RechteckTest {
     System.out.println(fläche);
     double umfang = re1.umfang();
     System.out.println(umfang);
+    
+    // 1_000_000 Strings werden oft manipuliert
   }
 
 }
