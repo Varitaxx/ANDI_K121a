@@ -1,6 +1,7 @@
 package aufgaben._addon;
 
 import javax.swing.*;
+import java.util.Scanner;
 
 public class UserInput {
   
@@ -15,6 +16,8 @@ public class UserInput {
     // Grafische Benutzerausgabe: JOptionPane.showMessageDialog( null, message );
     
     while( true ) {
+      //Scanner myScanner = new Scanner(System.in);
+      //String userChoice = myScanner.next();
       String userChoice = JOptionPane.showInputDialog(menu);
       System.out.println("userChoice: " + userChoice);
       if (userChoice.equals("0")) {
