@@ -20,8 +20,8 @@ public class ZahlenRatenV2 {
     int zuErraten = rd.nextInt(100) + 1; // 1..100
     Scanner myScanner = new Scanner(System.in); // Scanner für die Standardeingabe
     int eingabe = -1; // Lokale Variablen müssen vor dem ersten Lesevorgang initialisiert werden
-    int anzahlVersuche;
-    for( anzahlVersuche = 0; eingabe != zuErraten ; anzahlVersuche++ ) { // Endlos-Schleife
+    int anzahlVersuche = 0;
+    for( /* no init */ ; eingabe != zuErraten ; anzahlVersuche++ ) { // Endlos-Schleife
       System.out.println("Eine Zahl zwischen 1 und 100 bitte eingeben:");
       eingabe = myScanner.nextInt();
       if (zuErraten > eingabe) {
