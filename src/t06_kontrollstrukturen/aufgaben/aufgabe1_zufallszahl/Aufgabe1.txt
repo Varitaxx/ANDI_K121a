@@ -1,0 +1,19 @@
+✔ Erstelle eine Klasse „ZahlRaten“.
+✔ Lege in dieser Klasse eine statische Methode „rateZahl(...)“ an.
+✔ Diese Methode bekommt beim Aufruf eine ganze Zahl übergeben. Und diese ganze Zahl ist der Wertebereich für die Zufallszahl.
+
+✔ Und dann fordert dich die Methode auf Zahlen zu raten.
+
+✔ Nach jedem Versuch bekommst du Hilfe:
+   - Wenn dein Versuch größer ist, als die Zufallszahl dann erfolgt die Bildschirmausgabe:
+     „Du liegst falsch! Die zu erratende Zahl ist kleiner“
+   - Ansonsten
+     „Du liegst falsch! Die zu erratende Zahl ist größer“
+
+   - Nachdem du irgendwann die richtige Zahl erraten hast, erfolgt die Konsolenausgabe:
+     „Richtig! Du hast „+zaehler+“ Durchgänge benötigt.“
+
+Und der „zaehler“ ist die Variable, welche deine Rateversuche zählt.
+
+Die Methode wird in der main-Methode der Klasse „ZahlRaten“ aufgerufen.
+Aus Kontrollzwecken übergebe der Methode das Argument 100. (Wertebereich für Zufallszahl)
