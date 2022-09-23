@@ -2,6 +2,8 @@ package t06_kontrollstrukturen.p02_loops;
 
 import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class T01_For {
   
@@ -49,6 +51,13 @@ public class T01_For {
       System.out.println(zahlen[i]);
     }
     
+  }
+
+  private static void arrayListTest() {
+    List<Integer> zahlen = Arrays.asList(72, 4, 63, 105 );
+    for( int i = 0 ; i < zahlen.size(); i++ ) {
+      System.out.println(zahlen.get(i));
+    }
   }
   
   private static void verschachtelt() {

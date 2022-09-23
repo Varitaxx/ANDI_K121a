@@ -1,4 +1,4 @@
-package t06_kontrollstrukturen.aufgaben.aufgabe1_zufallszahl;
+package t06_kontrollstrukturen.aufgaben.aufgabe1_zahl_raten;
 
 
 import java.util.Random;
