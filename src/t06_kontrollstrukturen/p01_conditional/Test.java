@@ -6,10 +6,15 @@ import java.util.Arrays;
 public class Test {
   
   public static void main( String[] args ) {
+    //schleifen();
+    breakContinue();
+  }
+  
+  private static void schleifen() {
     //
-    //String[] nameArray = { "Peter", "Hans", "Thomas", "Stefan" };
-    String[] nameArray = {  };
-
+    String[] nameArray = { "Peter", "Hans", "Thomas", "Stefan" };
+    //String[] nameArray = {  };
+    
     // Iterationsvariable Array / Iterable
     for ( String name : nameArray ) {
       System.out.println("* " + name);
@@ -42,6 +47,18 @@ public class Test {
       i++;
     } while (i < nameArray.length);
     System.out.println("============================================================");
+  }
+  
+  public static void breakContinue( ) {
+    String[] nameArray = { "Peter", "Hans", "Thomas", "Stefan" };
+    
+    for( String name : nameArray ) {
+      if (name.length() <= 4) {   // name.equals("Peter");
+        continue;
+      }
+      System.out.println(name);
+    }
+  
   }
   
   
