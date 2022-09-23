@@ -13,7 +13,7 @@ public class Weizenkornlegende {
     // i = 3 (3. Kachel) => j = 4 (Körner)
     for (double i = 1, korn = 1 ; i <= 64 ; i++, korn = korn * 2) {
       // i : 1..64
-      System.out.println("i : " + i + " - Körner: " + korn);
+      System.out.println( (int)i + ". Kachel => " + korn + " - Körner");
       summe = summe +  korn;
     }
     System.out.println("Gesamtanzahl der Körner: " + summe);
