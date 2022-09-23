@@ -7,7 +7,8 @@ public class Test {
   
   public static void main( String[] args ) {
     //
-    String[] nameArray = { "Peter", "Hans", "Thomas", "Stefan" };
+    //String[] nameArray = { "Peter", "Hans", "Thomas", "Stefan" };
+    String[] nameArray = {  };
 
     // Iterationsvariable Array / Iterable
     for ( String name : nameArray ) {
@@ -28,8 +29,19 @@ public class Test {
     for (int i = nameArray.length - 1; i >= 0 ; i--) {
       System.out.println("# " + nameArray[i] );
     }
-    
-    
+    System.out.println("============================================================");
+    int i = 0;
+    while ( i < nameArray.length ) {
+      System.out.println( "✔  " + nameArray[i] ); // ALT + code (NumPad)
+      i++;
+    }
+    System.out.println("============================================================");
+    i = 0;
+    do {
+      System.out.println( "→  " + nameArray[i] ); // LAUFZEIT-FEHLER, wenn das Array leer ist.
+      i++;
+    } while (i < nameArray.length);
+    System.out.println("============================================================");
   }
   
   
