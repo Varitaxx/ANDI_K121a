@@ -1,6 +1,6 @@
 package t02_kontrollstrukturen.p02_loops;
 
-public class T04_Break_Continue {
+public class S04_Break_Continue {
   public static void main(String[] args) {
     breakTest();
     continueTest();

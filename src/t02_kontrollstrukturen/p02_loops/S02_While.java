@@ -3,7 +3,7 @@ package t02_kontrollstrukturen.p02_loops;
 import java.util.Enumeration;
 import java.util.Vector;
 
-public class T02_While {
+public class S02_While {
   public static void main(String[] args) {
     basisTest();
 //    arrayTest();

@@ -2,7 +2,7 @@ package t02_kontrollstrukturen.p01_conditional;
 
 import java.time.LocalDate;
 
-public class T01_IfAnweisung {
+public class S01_IfAnweisung {
   
   public static void main(String[] args) {
     

@@ -1,6 +1,6 @@
 package t03_deklarationen.p05_methoden;
 
-public class T01_Methodendeklaration {
+public class S01_Methodendeklaration {
   // [<acess-modifier>] [<non-access modifier>] <abstract|native> <return-type> methodName([parameter list]) [throws clause];
   // [<acess-modifier>] [<non-access modifier>]                   <return-type> methodName([parameter list]) [throws clause] { ... }
 
@@ -21,7 +21,7 @@ public class T01_Methodendeklaration {
     System.out.println("######################################################");
     System.out.println("               Methodendeklarationen                  ");
     System.out.println("######################################################");
-    T01_Methodendeklaration md = new T01_Methodendeklaration();
+    S01_Methodendeklaration md = new S01_Methodendeklaration();
     md.instanzMethode();
   }
 

@@ -2,7 +2,7 @@ package t02_kontrollstrukturen.p02_loops;
 
 import javax.swing.*;
 
-public class T03_DoWhile {
+public class S03_DoWhile {
   public static void main(String[] args) {
     basisTest();
 //    arrayTest();

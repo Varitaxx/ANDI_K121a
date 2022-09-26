@@ -3,7 +3,7 @@ package t02_kontrollstrukturen.p01_conditional;
 
 import javax.swing.*;
 
-public class T02_Switch {
+public class S02_Switch {
 
   public static void main(String[] args) {
 // mit switch kann man folgende Typen auf "Gleichheit" zu mehreren Werten prüfen

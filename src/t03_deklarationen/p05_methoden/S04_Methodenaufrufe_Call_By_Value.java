@@ -1,6 +1,6 @@
 package t03_deklarationen.p05_methoden;
 
-public class T04_Methodenaufrufe_Call_By_Value {
+public class S04_Methodenaufrufe_Call_By_Value {
   public static void main(String[] args) {
     // =============================================
     // Test mit primitiven Typen:

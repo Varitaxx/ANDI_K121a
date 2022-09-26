@@ -2,7 +2,7 @@ package t03_deklarationen.p05_methoden;
 
 import java.util.Random;
 
-public class T03_MethodenAufrufe2 {
+public class S03_MethodenAufrufe2 {
 
 
   public static void main(String[] args) {

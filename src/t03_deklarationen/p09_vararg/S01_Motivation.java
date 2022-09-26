@@ -1,6 +1,6 @@
 package t03_deklarationen.p09_vararg;
 
-public class T01_Motivation {
+public class S01_Motivation {
   public static void main(String[] args) {
     // Für unterschiedliche Anzahl von Parameter wird eine NEUE Methode benötigt
     System.out.println(summe(4, 6));

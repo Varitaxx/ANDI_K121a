@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class T01_For {
+public class S01_For {
   
   public static void main( String[] args ) {
     

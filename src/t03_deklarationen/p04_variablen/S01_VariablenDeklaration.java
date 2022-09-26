@@ -1,7 +1,7 @@
 package t03_deklarationen.p04_variablen;
 
 
-public class T01_VariablenDeklaration {
+public class S01_VariablenDeklaration {
   // Nicht-Lokale (Top-Level) Variablen
   // [access modifier] [non-access modifier]* <type> <variable name> [= expression];
   // ==================================================================
@@ -57,11 +57,11 @@ public class T01_VariablenDeklaration {
     // Nicht-Lokale Variablen (Intanz- und Klassenvariablen)
     // ==========================================================================
     // Instanzvariablen (non-static)
-    T01_VariablenDeklaration instance = new T01_VariablenDeklaration();
+    S01_VariablenDeklaration instance = new S01_VariablenDeklaration();
     System.out.println("instance.counter: " + instance.counter);
     System.out.println("instance.comment: " + instance.comment);
     // Klassenvariablen (static)
-    System.out.println("VariablenDeklaration.MWST: " + T01_VariablenDeklaration.MWST);
+    System.out.println("VariablenDeklaration.MWST: " + S01_VariablenDeklaration.MWST);
     // ==========================================================================
     // Lokale Variablen: Sichtbar nur innerhalb des Anweisungsblocks, in dem sie deklariert sind
     // ==========================================================================

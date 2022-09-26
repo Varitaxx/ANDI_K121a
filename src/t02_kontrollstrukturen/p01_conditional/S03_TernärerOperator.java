@@ -1,6 +1,6 @@
 package t02_kontrollstrukturen.p01_conditional;
 
-public class T03_TernärerOperator {
+public class S03_TernärerOperator {
   public static void main(String[] args) {
     String ausgabe = "";
     int zahl = 20;

@@ -1,6 +1,6 @@
 package t02_kontrollstrukturen.p02_loops;
 
-public class T05_Labels {
+public class S05_Labels {
   public static void main(String[] args) {
     labelTest();
   }

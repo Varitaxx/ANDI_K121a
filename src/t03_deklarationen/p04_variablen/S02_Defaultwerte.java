@@ -1,8 +1,6 @@
 package t03_deklarationen.p04_variablen;
 
-import java.util.Arrays;
-
-public class T02_Defaultwerte {
+public class S02_Defaultwerte {
   // Nicht-Lokale (Top-Level) Variablen
   // Egal, ob static oder non-static !!!
   // Primitive Datentypen

@@ -1,6 +1,6 @@
 package t03_deklarationen.p05_methoden;
 
-public class T02_MethodenAufrufe1 {
+public class S02_MethodenAufrufe1 {
 
   public static void main(String[] args) {
     startAusgabe();
