@@ -1,6 +1,6 @@
 package t01_grundlagen.p11_operatoren;
 
-public class T04_TernärerOperator {
+public class S04_TernärerOperator {
   public static void main(String[] args) {
     int zahl = 4;
 //    int zahl = 5;

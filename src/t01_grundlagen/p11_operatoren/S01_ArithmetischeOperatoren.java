@@ -1,6 +1,6 @@
 package t01_grundlagen.p11_operatoren;
 
-public class T01_ArithmetischeOperatoren {
+public class S01_ArithmetischeOperatoren {
   public static void main(String[] args) {
     // * /    %    + -
     int a = 3;

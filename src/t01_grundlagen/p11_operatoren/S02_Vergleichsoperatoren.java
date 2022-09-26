@@ -1,6 +1,6 @@
 package t01_grundlagen.p11_operatoren;
 
-public class T02_Vergleichsoperatoren {
+public class S02_Vergleichsoperatoren {
   public static void main(String[] args) {
     // ==   !=   <   <=   >   >=
     int a = 10;

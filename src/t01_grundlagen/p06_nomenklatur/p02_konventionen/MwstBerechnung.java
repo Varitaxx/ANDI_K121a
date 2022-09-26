@@ -1,14 +1,16 @@
 package t01_grundlagen.p06_nomenklatur.p02_konventionen;
-// alles klein mit „_“ (Unterstrich) getrennt 
+// Snake Case: alles klein
+// zusammengesetzte Wörter mit „_“ getrennt
 
-public class MwstBerechnung { // Upper CamelCase: Anfang groß
-  
-  final int MEHRWERT_STEUER = 19;  // Konstanten alles groß
+public class MwstBerechnung {        // Upper Camel Case: Anfang groß
+
+  // Konstanten
+  final int MEHRWERT_STEUER = 19;    // Upper Case: alles groß
   // zusammengesetzte Wörter mit „_“ getrennt
   
-  int nettoBetrag;                     // Lower CamelCase: Anfang klein
+  int nettoBetrag;                    // Lower Camel Case: Anfang klein
   
-  public void berechneBruttoBetrag() { // Lower CamelCase: Anfang klein
+  public void berechneBruttoBetrag() { // Lower Camel Case: Anfang klein
   }
   
 }

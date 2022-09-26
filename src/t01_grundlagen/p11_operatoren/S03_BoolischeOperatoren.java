@@ -1,6 +1,6 @@
 package t01_grundlagen.p11_operatoren;
 
-public class T03_BoolischeOperatoren {
+public class S03_BoolischeOperatoren {
 
   // ##############################################################################################
 
