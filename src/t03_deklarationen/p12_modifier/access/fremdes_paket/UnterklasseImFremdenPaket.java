@@ -4,7 +4,7 @@ package t03_deklarationen.p12_modifier.access.fremdes_paket;
 
 import t03_deklarationen.p12_modifier.access.eigenes_paket.MeineKlasse;
 
-// Unterklasse von MeineKlasse
+// Unterklasse von Intro
 public class UnterklasseImFremdenPaket extends MeineKlasse {
 
   // ######################################## TESTEN ########################################

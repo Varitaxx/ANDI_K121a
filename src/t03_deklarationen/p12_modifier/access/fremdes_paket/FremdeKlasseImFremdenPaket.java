@@ -8,8 +8,8 @@ public class FremdeKlasseImFremdenPaket {
 
   public void testMethode() {
     System.out.println(MeineKlasse.publicVar);
-//    System.out.println(MeineKlasse.protectedVar); // Nicht zulässig
-//    System.out.println(MeineKlasse.defaultVar);   // Nicht zulässig
-//    System.out.println(MeineKlasse.privateVar);   // Nicht zulässig
+//    System.out.println(Intro.protectedVar); // Nicht zulässig
+//    System.out.println(Intro.defaultVar);   // Nicht zulässig
+//    System.out.println(Intro.privateVar);   // Nicht zulässig
   }
 }

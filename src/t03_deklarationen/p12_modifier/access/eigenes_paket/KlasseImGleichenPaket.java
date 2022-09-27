@@ -8,7 +8,7 @@ public class KlasseImGleichenPaket {
     System.out.println(MeineKlasse.publicVar);
     System.out.println(MeineKlasse.protectedVar);
     System.out.println(MeineKlasse.defaultVar);
-//    System.out.println(MeineKlasse.privateVar); Nicht zulässig
+//    System.out.println(Intro.privateVar); Nicht zulässig
   }
 
 }

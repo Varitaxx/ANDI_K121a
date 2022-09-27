@@ -2,15 +2,12 @@ package t03_deklarationen.p09_vararg;
 
 public class S01_Motivation {
   public static void main(String[] args) {
-    // Für unterschiedliche Anzahl von Parameter wird eine NEUE Methode benötigt
-    System.out.println(summe(4, 6));
-    System.out.println(summe(4, 6, 10));
-    System.out.println(summe(4, 6, 10, 20));
 
-    // Mehr Aufwand: Ein Array muss immer vorbereitet werden !!!
-    double[] zahlen = {2, 4, 5, 8, 12, 4, 45, 1, 456};
-    System.out.println(summe(zahlen));
-
+    System.out.println("summe(3 , 4)         : " + summe(3 , 4));
+    System.out.println("summe(3,4,9)         : " + summe(3, 4, 9));
+    System.out.println("summe(3,4,9,2)       : " + summe(3, 4, 9, 2));
+    double[] zahlenArray = { 3, 4, 9, 2, 7, 12 };
+    System.out.println("summe( zahlenArray ) : " + summe( zahlenArray ));
     // Lösung ===> Vararg: double summe(double... zahlen) {..}
   }
 
