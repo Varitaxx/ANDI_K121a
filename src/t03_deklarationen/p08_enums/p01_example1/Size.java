@@ -13,7 +13,11 @@ package t03_deklarationen.p08_enums.p01_example1;
 /**
  * Eine Enum, die Keildergrößen
  */
-public enum Size { S, M, L, XL, XXL }
+public enum Size {
+//   0  1  2  3    4
+     S, M, L, XL, XXL;
+  // Variablen, Konstruktoren und Methoden
+}
 
 // Alle Konstanten S, M, ... sind vom Typ Size
 

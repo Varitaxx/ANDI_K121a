@@ -1,6 +1,6 @@
 package t00_quickstart;
 
-public class T04_BedingteAusführung {
+public class S04_BedingteAusführung {
 
   public static void main(String[] args) {
     System.out.println("################################################");

@@ -1,6 +1,6 @@
 package t04_string_stringbuilder.p02_stringbuilder;
 
-public class T02_StringBuilderMethods {
+public class S02_StringBuilderMethods {
 
   public static void main(String[] args) {
     stringBuilderInfos();

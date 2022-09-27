@@ -1,6 +1,6 @@
 package t03_deklarationen.p09_vararg;
 
-public class T02_VarArgTest {
+public class S02_VarArgTest {
 
   // VarArg steht für Variable Arguments
   public static void main(String[] args) {

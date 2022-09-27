@@ -1,6 +1,6 @@
 package t00_quickstart;
 
-public class T06_Schleifen {
+public class S06_Schleifen {
 
   public static void main(String[] args) {
     System.out.println("################################################");

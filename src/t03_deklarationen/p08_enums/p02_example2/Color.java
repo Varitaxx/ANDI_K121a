@@ -2,17 +2,17 @@ package t03_deklarationen.p08_enums.p02_example2;
 
 public enum Color {
   // ; WICHITG
-  // BLACK, WHITE, RED, GREEN, BLUE;           // Bei jeder Konstante wird der Konstruktor Color() aufgerufen
-  // BLACK(), WHITE(), RED(), GREEN(), BLUE(); // Bei jeder Konstante wird der Konstruktor Color() aufgerufen
-  BLACK(0,0,0), WHITE(255,255,255), RED(255,0,0), GREEN(0,255,0), BLUE(0,0,255); // Bei jeder Konstante wird der Konstruktor Color() aufgerufen
+  // BLACK, WHITE, RED, GREEN, BLUE;    // Bei jeder Konstante wird der Konstruktor Color() aufgerufen
+  // BLACK(), WHITE(), RED(), GREEN(), BLUE();
+  BLACK(0,0,0), WHITE(255,255,255), RED(255,0,0), GREEN(0,255,0), BLUE(0,0,255);
 
   // Variablen-Deklarationen
   int r, g, b;
   String germanDesc;
 
-  // Enum-Konstruktor nur "private" und "<default>" erlaubt
-  //  private Color() { }  // Der implizite Konstruktor
-  private Color() {
+  // Alle Konstruktoren sind implizit "private"
+  // private Color() { }  // Der implizite Konstruktor
+  /*private*/ Color() {
     System.out.println("Color() - Constructor: " + this.name());
   }
 

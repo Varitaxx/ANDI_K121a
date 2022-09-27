@@ -2,7 +2,7 @@ package t00_quickstart;
 
 import java.util.ArrayList;
 
-public class T05_Mengenkonstrukte {
+public class S05_Mengenkonstrukte {
   public static void main(String[] args) {
     System.out.println("################################################");
 //    arrayTest1();

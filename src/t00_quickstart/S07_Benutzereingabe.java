@@ -3,7 +3,7 @@ package t00_quickstart;
 import javax.swing.*;
 import java.util.Scanner;
 
-public class T07_Benutzereingabe {
+public class S07_Benutzereingabe {
 
   public static void main(String[] args) {
     System.out.println("################################################");

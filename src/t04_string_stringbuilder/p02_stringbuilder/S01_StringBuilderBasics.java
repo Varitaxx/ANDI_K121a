@@ -2,7 +2,7 @@ package t04_string_stringbuilder.p02_stringbuilder;
 
 import t04_string_stringbuilder.p01_string.p02_immutability.ImmutabilityTest;
 
-public class T01_StringBuilderBasics {
+public class S01_StringBuilderBasics {
   public static void main(String[] args) {
     basics();
     System.out.println("===========================================================");

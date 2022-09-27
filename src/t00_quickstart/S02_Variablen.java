@@ -1,6 +1,6 @@
 package t00_quickstart;
 
-public class T02_Variablen {
+public class S02_Variablen {
 
   public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package t00_quickstart;
 
-public class T01_Standardausgabe {
+public class S01_Standardausgabe {
 
   public static void main(String[] args) {
 // Konsolenausgabe

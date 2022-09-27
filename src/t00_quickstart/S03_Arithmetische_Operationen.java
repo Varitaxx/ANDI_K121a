@@ -1,6 +1,6 @@
 package t00_quickstart;
 
-public class T03_Arithmetische_Operationen {
+public class S03_Arithmetische_Operationen {
 
   public static void main(String[] args) {
     int a = 5;
