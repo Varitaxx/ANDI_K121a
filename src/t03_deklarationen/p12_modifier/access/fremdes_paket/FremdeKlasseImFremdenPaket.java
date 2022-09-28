@@ -4,12 +4,12 @@ import t03_deklarationen.p12_modifier.access.eigenes_paket.MeineKlasse;
 
 public class FremdeKlasseImFremdenPaket {
 
-  // ######################################## TESTEN ########################################
+  // ======================================== TESTEN ========================================
 
   public void testMethode() {
     System.out.println(MeineKlasse.publicVar);
-//    System.out.println(Intro.protectedVar); // Nicht zulässig
-//    System.out.println(Intro.defaultVar);   // Nicht zulässig
-//    System.out.println(Intro.privateVar);   // Nicht zulässig
+    //System.out.println(MeineKlasse.protectedVar); // Nicht zulässig
+    //System.out.println(MeineKlasse.defaultVar);   // Nicht zulässig
+    //System.out.println(MeineKlasse.privateVar);   // Nicht zulässig
   }
 }

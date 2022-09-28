@@ -74,6 +74,7 @@ public class ArrayTest {
     System.out.println("====================");
     
     // Funktionale Programmierung (KEIN Prüfungsthema)
+    System.out.println(zahlen);
     // Arrays.stream(zahlen).forEach(System.out::println);
   }
   
