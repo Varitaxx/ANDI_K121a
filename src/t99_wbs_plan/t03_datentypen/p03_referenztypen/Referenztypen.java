@@ -4,7 +4,7 @@ public class Referenztypen {
 
   public static void main( String[] args ) {
     // Referenztypen: Klassen (class), Schnittstellen (interface),
-    // Aufzählungstypen (enum), Annotationen (@interface), Arrays
+    // Aufzählungstypen (enum), Annotationen (@interface), ArrayTest
     System.out.println("============================================================");
     String str1 = "Hallo";
     String str2 = new String("Hallo");

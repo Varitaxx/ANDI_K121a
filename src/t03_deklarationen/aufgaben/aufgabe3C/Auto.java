@@ -7,6 +7,7 @@ enum Antrieb {  ALLRAD, VORDER, HECK }
 enum Kraftstoff { BENZIN, DIESEL, ELEKTRO, HYBRID }
 
 
+
 public class Auto {
   private String hersteller;
   private String modell;
