@@ -12,6 +12,8 @@ public class S04_TernärerOperator {
       zahlIst = "Gerade";
     else
       zahlIst = "Ungerade";
+    
+    zahlIst = (zahl % 2 == 0) ? "Gerade" : "Ungerade";
     // ====================
     System.out.println("Zahl ist: " + zahlIst);
     // =============================================

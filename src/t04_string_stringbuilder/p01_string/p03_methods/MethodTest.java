@@ -21,6 +21,7 @@ public class MethodTest {
   private static void stringInfos() {
     //            0123456789012
     String str = "International";
+    
     System.out.println("===========================================================");
     System.out.println("str                : " + str);
     System.out.println("str.toString()     : " + str.toString());      // International
