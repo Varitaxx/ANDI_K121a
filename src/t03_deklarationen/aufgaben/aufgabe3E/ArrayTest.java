@@ -16,10 +16,11 @@ public class ArrayTest {
   private static void lösung4() {
     double summe = 0;
     double plusMinus = 0;
-    
-    for( int i = 0 ; i < zahlen.length ; i++ ) { // Standard for-Schleife
-      plusMinus = plusMinus + (i % 2 == 0 ? +zahlen[i] : -zahlen[i]);
-      summe = summe + zahlen[i];
+    int i = 0;
+    for( double zahl : zahlen ) { // Standard for-Schleife
+      plusMinus = plusMinus + (i % 2 == 0 ? +zahl : -zahl);
+      summe = summe + zahl;
+      i++;
     }
     
     System.out.format("Reguläre Summe  : %10.2f %n", summe);
