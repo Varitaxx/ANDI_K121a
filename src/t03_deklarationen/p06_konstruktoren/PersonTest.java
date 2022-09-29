@@ -40,19 +40,19 @@ public class PersonTest {
     
     
     //Person person1 = new Person();
-    //person1.printData(); // vorname = null, nachname = null (Defaultwert für String und für alle Referenztypen)
+    //person1.instanceMethod(); // vorname = null, nachname = null (Defaultwert für String und für alle Referenztypen)
     //
     //System.out.println("=============================================");
     //
     //Person person2 = new Person(); // mit "new" wird ein Konstruktor aufgerufen
     //person2.vorname  = "Peter";
     //person2.nachname = "Schmidt";
-    //person2.printData();
+    //person2.instanceMethod();
     //
     //System.out.println("=============================================");
     //
     //Person person3 = new Person("Hans", "Meyer");
-    //person3.printData();
+    //person3.instanceMethod();
     //
     //System.out.println("=============================================");
 

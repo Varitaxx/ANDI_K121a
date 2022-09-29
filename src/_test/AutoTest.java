@@ -17,7 +17,7 @@ public class AutoTest {
     auto1.hersteller = "VW";
     auto1.modell = "Golf";
     //Auto auto1 = new Auto("VW", "Golf");
-    //auto1.printData();
+    //auto1.instanceMethod();
     
     
     Auto auto2 = new Auto("BMW", "520");

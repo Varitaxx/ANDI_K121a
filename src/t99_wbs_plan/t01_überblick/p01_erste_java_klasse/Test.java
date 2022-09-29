@@ -10,7 +10,7 @@ public class Test {
     System.out.println("|   Peter     |      Schmidt      |    Gartenweg 12a, 50478 Köln       |");
     System.out.println("|   Hans      |      Meyer        |    Bahnstr. 40, 40147 Dortmund     |");
     System.out.println("========================================================================");
-    someMethod(); // someMethod() muss "static" sein
+    someMethod(); // staticMethod() muss "static" sein
   }
   
   public static void someMethod() {
