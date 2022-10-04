@@ -1,6 +1,6 @@
 package t05_objektorientierung.aufgaben.aufgabe5D.v1.pyramide;
 
-import OCA.aufgaben.aufgabe05d_3d_forms.v1.Form;
+import t05_objektorientierung.aufgaben.aufgabe5D.v1.Form;
 
 public abstract class Pyramide implements Form {
 

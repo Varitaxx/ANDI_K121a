@@ -1,6 +1,6 @@
 package t05_objektorientierung.aufgaben.aufgabe5D.v2;
 
-import OCA.aufgaben.util.ConsoleUtil;
+import util.ConsoleUtil;
 
 public interface Form {
   double getOberfläche(); // implizit: public abstract

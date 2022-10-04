@@ -1,11 +1,11 @@
 package t05_objektorientierung.aufgaben.aufgabe5D.v1;
 
-import OCA.aufgaben.aufgabe05d_3d_forms.v1.prisma.Quader;
-import OCA.aufgaben.aufgabe05d_3d_forms.v1.prisma.Würfel;
-import OCA.aufgaben.aufgabe05d_3d_forms.v1.prisma.Zylinder;
-import OCA.aufgaben.aufgabe05d_3d_forms.v1.pyramide.Kegel;
-import OCA.aufgaben.aufgabe05d_3d_forms.v1.pyramide.QuadratischePyramide;
-import OCA.aufgaben.aufgabe05d_3d_forms.v1.pyramide.ViereckPyramide;
+import t05_objektorientierung.aufgaben.aufgabe5D.v1.prisma.Quader;
+import t05_objektorientierung.aufgaben.aufgabe5D.v1.prisma.Würfel;
+import t05_objektorientierung.aufgaben.aufgabe5D.v1.prisma.Zylinder;
+import t05_objektorientierung.aufgaben.aufgabe5D.v1.pyramide.Kegel;
+import t05_objektorientierung.aufgaben.aufgabe5D.v1.pyramide.QuadratischePyramide;
+import t05_objektorientierung.aufgaben.aufgabe5D.v1.pyramide.ViereckPyramide;
 
 public class FormTest {
 
