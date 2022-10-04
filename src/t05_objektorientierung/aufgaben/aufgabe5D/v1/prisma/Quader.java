@@ -1,0 +1,56 @@
+package t05_objektorientierung.aufgaben.aufgabe5D.v1.prisma;
+
+public class Quader extends Prisma {
+
+private double länge;
+private double breite;
+
+  public Quader(double länge, double breite, double höhe) {
+    super(höhe);  // Aufruf des Prisma-Konstruktors
+    this.länge = länge;
+    this.breite = breite;
+  }
+
+  public double getLänge() {
+    return länge;
+  }
+
+  public void setLänge(double länge) {
+    this.länge = länge;
+  }
+
+  public double getBreite() {
+    return breite;
+  }
+
+  public void setBreite(double breite) {
+    this.breite = breite;
+  }
+
+  @Override
+  public double getGrundfläche() {
+    return länge * breite;
+  }
+
+  @Override
+  public double getUmfang() {
+    return (länge + breite) * 2;
+  }
+
+  @Override
+  public void printInfo() {
+    System.out.println("=====================================");
+    System.out.println("                " + this.getClass().getSimpleName());
+    System.out.println("=====================================");
+    System.out.println("Länge          : " + länge);
+    System.out.println("Breite         : " + breite);
+    System.out.println("Höhe           : " + getHöhe());
+    System.out.println("==========");
+    System.out.println("Umfang         : " + getUmfang());
+    System.out.println("Grundfläche    : " + getGrundfläche());
+    System.out.println("==========");
+    System.out.println("getOberfläche(): " + getOberfläche());
+    System.out.println("getVolumen()   : " + getVolumen());
+    System.out.println("=====================================");
+  }
+}
