@@ -1,4 +1,4 @@
-package t05_objektorientierung.aufgaben.aufgabe3A.p01_vorher;
+package t05_objektorientierung.aufgaben.aufgabe5A.p01_vorher;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package t05_objektorientierung.aufgaben.aufgabe3A.p02_nachher;
+package t05_objektorientierung.aufgaben.aufgabe5A.p02_nachher;
 
 import java.util.List;
 // Kapselung, Hohe Kohäsion, Schwache Koppelung !!!!!!!!!!!!!!!!!!!!!!!!!
