@@ -52,7 +52,8 @@ public class PC {
   public String toString() {
     return String.format("%s - %f - %d - %d", bezeichnung, prozessorGeschwindigkeit, ram, festplattengröße);
   }
-
+  
+  // ===============================================================================
   public void starten() {
     System.out.println("[" + bezeichnung + "] wird gestartet ...");
   }
@@ -64,6 +65,7 @@ public class PC {
   public void inSchlafModusGehen() {
     System.out.println("[" + bezeichnung + "] geht in den Schlafmodus über ...");
   }
+  // ===============================================================================
 
   public void printData() {
     System.out.println("===============================================================");
